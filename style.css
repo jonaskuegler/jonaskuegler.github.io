@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "coolvetica";
+  src: url(font/coolvetica\ rg.otf);
+}
+
+@font-face {
+  font-family: "coolvetica compressed";
+  src: url(font/coolvetica\ compressed\ hv.otf);
+}
+
+body {
+  margin: 0;
+}
+
+.j {
+  font-family: "coolvetica";
+  font-size: 90px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  letter-spacing: 130px;
+  margin-right: -130px;
+}
+
+h2 {
+  font-family: "coolvetica compressed";
+  font-size: 45px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.p {
+  font-family: "coolvetica";
+  font-size: 90px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  letter-spacing: 40px;
+  margin-right: -40px;
+}
+
+.a {
+  font-family: "coolvetica";
+  font-size: 90px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  letter-spacing: 40px;
+  margin-right: -40px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header img {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+.login-image {
+  height: 100vh;
+  width: 113%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 50%;
+}
+
+.feld {
+ position: absolute;
+ top: 400px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+.homescreen-image {
+  height: 100vh;
+  width: 113%;
+  object-fit: cover;
+  object-position: center;
+}
+
+a {
+  display: block;
+}
+
+.menu {
+  font-family: "coolvetica compressed";
+  position: absolute;
+  right: 50px;
+  font-size: 45px;
+  text-align: right;
+  letter-spacing: 30px;
+  margin-right: -30px;
+  cursor: pointer;
+}
+
+.menu-link {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-link1 {
+  color: black;
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+  text-indent: 30px;
+}
+
+.menu-link1:hover {
+  text-decoration: underline;
+  text-indent: 30px;
+}
+
+.projects {
+  display: flex;
+  margin-top: 80px;
+  padding: 40px;
+  gap: 40px;
+}
+
+.projects img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.me {
+  display: flex;
+  margin-top: 80px;
+  padding: 40px;
+  gap: 40px;
+}
+
+.me img {
+  max-width: 300px;
+  object-fit: cover;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.me-text {
+  font-family: "coolvetica";
+  line-height: 30px;
+  margin-left: 100px;
+}
+
+.projects-text {
+  font-family: "coolvetica";
+}
+
+@media (max-width: 550px) {
+  .j {
+    letter-spacing: 30px;
+    margin-right: -30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .p {
+    letter-spacing: 10px;
+    margin-right: -10px;
+
+  }
+}
+
+@media (max-width: 650px) {
+  .header img {
+    top: 120px;
+  }
+}
+
+@media (max-width: 900px) {
+  .me-text {
+    margin-left: auto;
+    white-space: pre-line;
+  }
+}
